@@ -1,0 +1,18 @@
+.git
+README.md
+
+node_modules
+vendor
+
+storage/*.key
+storage/logs
+storage/framework/cache
+storage/framework/sessions
+storage/framework/views
+
+.env
+.env.*
+
+# allow docker configs needed for prod image
+!docker/nginx.prod.conf
+!docker/supervisord.conf
